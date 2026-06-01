@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
-import { Code, Cpu, CpuIcon, Database, ExternalLink, Layers, Shield, Terminal } from 'lucide-react';
+import { Code, Cpu, CpuIcon, Database, ExternalLink, Github, Layers, Shield, Terminal } from 'lucide-react';
+import './App.css'
 
 // Animation variants for clean, staggered fade-ins
 const fadeIn = {
