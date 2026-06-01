@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Code, Cpu, CpuIcon, Database, ExternalLink, Github, Layers, Shield, Terminal } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 import './App.css'
 
 // Animation variants for clean, staggered fade-ins
@@ -193,6 +194,7 @@ export default function Portfolio() {
           <a href="#" className="hover:text-slate-300 transition-colors">Smart Contract Key</a>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 }
